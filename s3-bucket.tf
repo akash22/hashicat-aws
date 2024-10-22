@@ -4,8 +4,6 @@ module "s3_bucket" {
   bucket = "${prefix}-my-s3-bucket"
   acl    = "private"
 
-  versioning = {
-    enabled = true
   }
 
 }
